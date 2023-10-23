@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801000222AE568930038F5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000212AE568930038F5A6 /* AppDelegate.m */; };
+		801000252AE568930038F5A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000242AE568930038F5A6 /* SceneDelegate.m */; };
+		801000282AE568930038F5A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000272AE568930038F5A6 /* ViewController.m */; };
+		8010002B2AE568930038F5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801000292AE568930038F5A6 /* Main.storyboard */; };
+		8010002D2AE568950038F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8010002C2AE568950038F5A6 /* Assets.xcassets */; };
+		801000302AE568950038F5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8010002E2AE568950038F5A6 /* LaunchScreen.storyboard */; };
+		801000332AE568950038F5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000322AE568950038F5A6 /* main.m */; };
+		8010003D2AE568960038F5A6 /* _6_UIView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8010003C2AE568960038F5A6 /* _6_UIView_____Tests.m */; };
+		801000472AE568960038F5A6 /* _6_UIView_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000462AE568960038F5A6 /* _6_UIView_____UITests.m */; };
+		801000492AE568960038F5A6 /* _6_UIView_____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801000482AE568960038F5A6 /* _6_UIView_____UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801000392AE568960038F5A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801000152AE568930038F5A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8010001C2AE568930038F5A6;
+			remoteInfo = "06_UIView的层级关系";
+		};
+		801000432AE568960038F5A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801000152AE568930038F5A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8010001C2AE568930038F5A6;
+			remoteInfo = "06_UIView的层级关系";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8010001D2AE568930038F5A6 /* 06_UIView的层级关系.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06_UIView的层级关系.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801000202AE568930038F5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		801000212AE568930038F5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		801000232AE568930038F5A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		801000242AE568930038F5A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		801000262AE568930038F5A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		801000272AE568930038F5A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8010002A2AE568930038F5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8010002C2AE568950038F5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8010002F2AE568950038F5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		801000312AE568950038F5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801000322AE568950038F5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801000382AE568960038F5A6 /* 06_UIView的层级关系Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06_UIView的层级关系Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8010003C2AE568960038F5A6 /* _6_UIView_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_UIView_____Tests.m"; sourceTree = "<group>"; };
+		801000422AE568960038F5A6 /* 06_UIView的层级关系UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06_UIView的层级关系UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801000462AE568960038F5A6 /* _6_UIView_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_UIView_____UITests.m"; sourceTree = "<group>"; };
+		801000482AE568960038F5A6 /* _6_UIView_____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_UIView_____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8010001A2AE568930038F5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801000352AE568960038F5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8010003F2AE568960038F5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801000142AE568930038F5A6 = {
+			isa = PBXGroup;
+			children = (
+				8010001F2AE568930038F5A6 /* 06_UIView的层级关系 */,
+				8010003B2AE568960038F5A6 /* 06_UIView的层级关系Tests */,
+				801000452AE568960038F5A6 /* 06_UIView的层级关系UITests */,
+				8010001E2AE568930038F5A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8010001E2AE568930038F5A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8010001D2AE568930038F5A6 /* 06_UIView的层级关系.app */,
+				801000382AE568960038F5A6 /* 06_UIView的层级关系Tests.xctest */,
+				801000422AE568960038F5A6 /* 06_UIView的层级关系UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8010001F2AE568930038F5A6 /* 06_UIView的层级关系 */ = {
+			isa = PBXGroup;
+			children = (
+				801000202AE568930038F5A6 /* AppDelegate.h */,
+				801000212AE568930038F5A6 /* AppDelegate.m */,
+				801000232AE568930038F5A6 /* SceneDelegate.h */,
+				801000242AE568930038F5A6 /* SceneDelegate.m */,
+				801000262AE568930038F5A6 /* ViewController.h */,
+				801000272AE568930038F5A6 /* ViewController.m */,
+				801000292AE568930038F5A6 /* Main.storyboard */,
+				8010002C2AE568950038F5A6 /* Assets.xcassets */,
+				8010002E2AE568950038F5A6 /* LaunchScreen.storyboard */,
+				801000312AE568950038F5A6 /* Info.plist */,
+				801000322AE568950038F5A6 /* main.m */,
+			);
+			path = "06_UIView的层级关系";
+			sourceTree = "<group>";
+		};
+		8010003B2AE568960038F5A6 /* 06_UIView的层级关系Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8010003C2AE568960038F5A6 /* _6_UIView_____Tests.m */,
+			);
+			path = "06_UIView的层级关系Tests";
+			sourceTree = "<group>";
+		};
+		801000452AE568960038F5A6 /* 06_UIView的层级关系UITests */ = {
+			isa = PBXGroup;
+			children = (
+				801000462AE568960038F5A6 /* _6_UIView_____UITests.m */,
+				801000482AE568960038F5A6 /* _6_UIView_____UITestsLaunchTests.m */,
+			);
+			path = "06_UIView的层级关系UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8010001C2AE568930038F5A6 /* 06_UIView的层级关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8010004C2AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系" */;
+			buildPhases = (
+				801000192AE568930038F5A6 /* Sources */,
+				8010001A2AE568930038F5A6 /* Frameworks */,
+				8010001B2AE568930038F5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06_UIView的层级关系";
+			productName = "06_UIView的层级关系";
+			productReference = 8010001D2AE568930038F5A6 /* 06_UIView的层级关系.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801000372AE568960038F5A6 /* 06_UIView的层级关系Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8010004F2AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系Tests" */;
+			buildPhases = (
+				801000342AE568960038F5A6 /* Sources */,
+				801000352AE568960038F5A6 /* Frameworks */,
+				801000362AE568960038F5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8010003A2AE568960038F5A6 /* PBXTargetDependency */,
+			);
+			name = "06_UIView的层级关系Tests";
+			productName = "06_UIView的层级关系Tests";
+			productReference = 801000382AE568960038F5A6 /* 06_UIView的层级关系Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801000412AE568960038F5A6 /* 06_UIView的层级关系UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801000522AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系UITests" */;
+			buildPhases = (
+				8010003E2AE568960038F5A6 /* Sources */,
+				8010003F2AE568960038F5A6 /* Frameworks */,
+				801000402AE568960038F5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801000442AE568960038F5A6 /* PBXTargetDependency */,
+			);
+			name = "06_UIView的层级关系UITests";
+			productName = "06_UIView的层级关系UITests";
+			productReference = 801000422AE568960038F5A6 /* 06_UIView的层级关系UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801000152AE568930038F5A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8010001C2AE568930038F5A6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					801000372AE568960038F5A6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8010001C2AE568930038F5A6;
+					};
+					801000412AE568960038F5A6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8010001C2AE568930038F5A6;
+					};
+				};
+			};
+			buildConfigurationList = 801000182AE568930038F5A6 /* Build configuration list for PBXProject "06_UIView的层级关系" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801000142AE568930038F5A6;
+			productRefGroup = 8010001E2AE568930038F5A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8010001C2AE568930038F5A6 /* 06_UIView的层级关系 */,
+				801000372AE568960038F5A6 /* 06_UIView的层级关系Tests */,
+				801000412AE568960038F5A6 /* 06_UIView的层级关系UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8010001B2AE568930038F5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801000302AE568950038F5A6 /* LaunchScreen.storyboard in Resources */,
+				8010002D2AE568950038F5A6 /* Assets.xcassets in Resources */,
+				8010002B2AE568930038F5A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801000362AE568960038F5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801000402AE568960038F5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801000192AE568930038F5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801000282AE568930038F5A6 /* ViewController.m in Sources */,
+				801000222AE568930038F5A6 /* AppDelegate.m in Sources */,
+				801000332AE568950038F5A6 /* main.m in Sources */,
+				801000252AE568930038F5A6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801000342AE568960038F5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010003D2AE568960038F5A6 /* _6_UIView_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8010003E2AE568960038F5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801000492AE568960038F5A6 /* _6_UIView_____UITestsLaunchTests.m in Sources */,
+				801000472AE568960038F5A6 /* _6_UIView_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8010003A2AE568960038F5A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8010001C2AE568930038F5A6 /* 06_UIView的层级关系 */;
+			targetProxy = 801000392AE568960038F5A6 /* PBXContainerItemProxy */;
+		};
+		801000442AE568960038F5A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8010001C2AE568930038F5A6 /* 06_UIView的层级关系 */;
+			targetProxy = 801000432AE568960038F5A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801000292AE568930038F5A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8010002A2AE568930038F5A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8010002E2AE568950038F5A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8010002F2AE568950038F5A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8010004A2AE568960038F5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8010004B2AE568960038F5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8010004D2AE568960038F5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06_UIView的层级关系/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8010004E2AE568960038F5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06_UIView的层级关系/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		801000502AE568960038F5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06_UIView的层级关系.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06_UIView的层级关系";
+			};
+			name = Debug;
+		};
+		801000512AE568960038F5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06_UIView的层级关系.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06_UIView的层级关系";
+			};
+			name = Release;
+		};
+		801000532AE568960038F5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06_UIView的层级关系";
+			};
+			name = Debug;
+		};
+		801000542AE568960038F5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangbo.-6-UIView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06_UIView的层级关系";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801000182AE568930038F5A6 /* Build configuration list for PBXProject "06_UIView的层级关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010004A2AE568960038F5A6 /* Debug */,
+				8010004B2AE568960038F5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8010004C2AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010004D2AE568960038F5A6 /* Debug */,
+				8010004E2AE568960038F5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8010004F2AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801000502AE568960038F5A6 /* Debug */,
+				801000512AE568960038F5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801000522AE568960038F5A6 /* Build configuration list for PBXNativeTarget "06_UIView的层级关系UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801000532AE568960038F5A6 /* Debug */,
+				801000542AE568960038F5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801000152AE568930038F5A6 /* Project object */;
+}
