@@ -29,20 +29,30 @@
     //NO： 不允许
     _scrollView.userInteractionEnabled = YES;
     
-    _scrollView.contentSize = CGSizeMake(300, 400*9);
+    _scrollView.contentSize = CGSizeMake(300, 400*7);
     
-    for(int i = 0; i <9 ;i++)
+    UIImage* image = [UIImage imageNamed:@"5"];
+    UIImageView* iView = [[UIImageView alloc]init];
+    iView.image = image;
+    iView.frame = CGRectMake(0, 0, 300, 400);
+    
+    
+    for(int i = 0; i < 5 ;i++)
     {
-        NSString* strName = [NSString stringWithFormat:@"_%d",i+1];
-        UIImage* image = [UIImage imageNamed:strName];
+        NSString* strName = [NSString stringWithFormat:@"%d",i+1];
+        image = [UIImage imageNamed:strName];
         
-        UIImageView* iView = [[UIImageView alloc] init];
+        iView = [[UIImageView alloc] init];
         
         iView.image = image;
         
-        iView.frame = CGRectMake(0, 400*i, 300, 400);
-        
+        iView.frame = CGRectMake(0, 400*(i+1), 300, 400);
     }
+    
+    image = [UIImage imageNamed:@"1"];
+    iView = [[UIImageView alloc]init];
+    iView.image = image;
+    iView.frame = CGRectMake(0, 400*6, 300, 400);
     
     [self.view addSubview:_scrollView];
     

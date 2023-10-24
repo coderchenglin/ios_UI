@@ -2,7 +2,7 @@
 //  ViewController.m
 //  08_UIViewController基础
 //
-//  Created by 差不多先生 on 2023/10/23.
+//  Created by 差不多先生 on 2023/10/24.
 //
 
 #import "ViewController.h"
@@ -13,15 +13,9 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
-    
-    
-    
 }
 
 

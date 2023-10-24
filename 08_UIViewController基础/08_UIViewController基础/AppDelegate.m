@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  08_UIViewController基础
 //
-//  Created by 差不多先生 on 2023/10/23.
+//  Created by 差不多先生 on 2023/10/24.
 //
 
 #import "AppDelegate.h"
@@ -14,14 +14,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-    
-    
-    
     return YES;
 }
 

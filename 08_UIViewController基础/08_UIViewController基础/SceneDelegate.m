@@ -2,11 +2,11 @@
 //  SceneDelegate.m
 //  08_UIViewController基础
 //
-//  Created by 差不多先生 on 2023/10/23.
+//  Created by 差不多先生 on 2023/10/24.
 //
 
 #import "SceneDelegate.h"
-
+#import "ViewController.h"
 @interface SceneDelegate ()
 
 @end
@@ -18,6 +18,15 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    //self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ViewController* vcRoot = [[ViewController alloc] init];
+    
+    self.window.rootViewController = vcRoot;
+    
+    self.window.backgroundColor = [UIColor greenColor];
+    
 }
 
 
