@@ -17,6 +17,9 @@
 		8079B4C02AE80F2600FEA60F /* _2______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4BF2AE80F2600FEA60F /* _2______Tests.m */; };
 		8079B4CA2AE80F2600FEA60F /* _2______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4C92AE80F2600FEA60F /* _2______UITests.m */; };
 		8079B4CC2AE80F2600FEA60F /* _2______UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4CB2AE80F2600FEA60F /* _2______UITestsLaunchTests.m */; };
+		8079B4DA2AE8941E00FEA60F /* VCFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4D92AE8941E00FEA60F /* VCFirst.m */; };
+		8079B4DD2AE8942D00FEA60F /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4DC2AE8942D00FEA60F /* VCSecond.m */; };
+		8079B4E02AE8943D00FEA60F /* VCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B4DF2AE8943D00FEA60F /* VCThird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		8079B4C52AE80F2600FEA60F /* 32_分栏控制器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "32_分栏控制器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8079B4C92AE80F2600FEA60F /* _2______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UITests.m"; sourceTree = "<group>"; };
 		8079B4CB2AE80F2600FEA60F /* _2______UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		8079B4D82AE8941E00FEA60F /* VCFirst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCFirst.h; sourceTree = "<group>"; };
+		8079B4D92AE8941E00FEA60F /* VCFirst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCFirst.m; sourceTree = "<group>"; };
+		8079B4DB2AE8942D00FEA60F /* VCSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCSecond.h; sourceTree = "<group>"; };
+		8079B4DC2AE8942D00FEA60F /* VCSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
+		8079B4DE2AE8943D00FEA60F /* VCThird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCThird.h; sourceTree = "<group>"; };
+		8079B4DF2AE8943D00FEA60F /* VCThird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCThird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,12 @@
 			children = (
 				8079B4A32AE80F2400FEA60F /* AppDelegate.h */,
 				8079B4A42AE80F2400FEA60F /* AppDelegate.m */,
+				8079B4D82AE8941E00FEA60F /* VCFirst.h */,
+				8079B4D92AE8941E00FEA60F /* VCFirst.m */,
+				8079B4DB2AE8942D00FEA60F /* VCSecond.h */,
+				8079B4DC2AE8942D00FEA60F /* VCSecond.m */,
+				8079B4DE2AE8943D00FEA60F /* VCThird.h */,
+				8079B4DF2AE8943D00FEA60F /* VCThird.m */,
 				8079B4A62AE80F2400FEA60F /* SceneDelegate.h */,
 				8079B4A72AE80F2400FEA60F /* SceneDelegate.m */,
 				8079B4A92AE80F2400FEA60F /* ViewController.h */,
@@ -268,7 +283,10 @@
 			files = (
 				8079B4AB2AE80F2400FEA60F /* ViewController.m in Sources */,
 				8079B4A52AE80F2400FEA60F /* AppDelegate.m in Sources */,
+				8079B4DD2AE8942D00FEA60F /* VCSecond.m in Sources */,
+				8079B4E02AE8943D00FEA60F /* VCThird.m in Sources */,
 				8079B4B62AE80F2600FEA60F /* main.m in Sources */,
+				8079B4DA2AE8941E00FEA60F /* VCFirst.m in Sources */,
 				8079B4A82AE80F2400FEA60F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

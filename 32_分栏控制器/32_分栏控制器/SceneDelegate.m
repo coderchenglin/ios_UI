@@ -6,6 +6,10 @@
 //
 
 #import "SceneDelegate.h"
+#import "VCFirst.h"
+#import "VCThird.h"
+#import "VCSecond.h"
+
 
 @interface SceneDelegate ()
 
@@ -18,6 +22,49 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    //创建控制器1
+    VCFirst* vcFirst = [[VCFirst alloc] init];
+    
+    vcFirst.title = @"视图1";
+    vcFirst.view.backgroundColor = [UIColor blueColor];
+    //创建控制器2
+    VCSecond* vcSecond = [[VCSecond alloc] init];
+    vcSecond.view.backgroundColor = [UIColor yellowColor];
+    vcSecond.title = @"视图2";
+    //创建控制器3
+    VCThird* vcThird = [[VCThird alloc] init];
+    vcThird.view.backgroundColor = [UIColor orangeColor];
+    vcThird.title = @"视图3";
+    
+    //创建分栏控制器对象
+    UITabBarController* tbcontroller = [[UITabBarController alloc] init];
+    
+    tbcontroller.tabBar.barTintColor = [UIColor grayColor];
+    
+    //创建一个控制器数组对象
+    //将所有要被分栏控制器管理的对象添加到数组中
+    NSArray* arrayVC = [NSArray arrayWithObjects:vcFirst,vcSecond,vcThird, nil];
+    
+    //将分栏视图控制器管理数组赋值
+    //这是UITabBarController类的一个属性viewControllers
+    tbcontroller.viewControllers = arrayVC;
+    
+    //将分栏控制器作为根视图控制器
+    self.window.rootViewController = tbcontroller;
+    
+    //设置选中的视图控制器的索引
+    tbcontroller.selectedIndex = 2;
+    
+    if(tbcontroller.selectedViewController == vcThird)
+    {
+        NSLog(@"当前显示的是视图控制器3");
+    }
+    
+    //设置分栏控制器的工具栏的透明度
+    tbcontroller.tabBar.translucent = NO;
+
+    
 }
 
 

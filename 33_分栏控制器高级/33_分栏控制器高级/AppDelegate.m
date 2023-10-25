@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  32_分栏控制器
+//  33_分栏控制器高级
 //
-//  Created by 差不多先生 on 2023/10/24.
+//  Created by 差不多先生 on 2023/10/25.
 //
 
 #import "AppDelegate.h"
@@ -14,14 +14,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-    
-    
-    
     return YES;
 }
 
